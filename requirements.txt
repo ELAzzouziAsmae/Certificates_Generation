@@ -1,0 +1,12 @@
+PyQt5           # Bibliothèque pour créer l'interface utilisateur (widgets, fenêtres, etc.)
+pandas          # Manipulation des fichiers Excel (lecture des colonnes, filtrage, etc.)
+openpyxl        # Support nécessaire pour lire les fichiers .xlsx avec pandas
+win32security
+
+pywin32         # Fournit win32security et win32con utilisés pour vérifier les identifiants Windows
+                # Contient win32com pour contrôler et interagir  avec Outlook via COM 
+                # COM (Component Object Model): est une technologie de Microsoft qui permet à différentes applications Windows de communiquer entre elles
+python-pptx     # Pour charger et modifier les modèles PowerPoint (.pptx)
+comtypes        # Pour contrôler PowerPoint via COM et automatiser la conversion .pptx → .pdf
+
+datetime
